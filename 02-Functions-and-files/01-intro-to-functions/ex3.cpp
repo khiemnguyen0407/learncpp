@@ -26,6 +26,8 @@ int main()
     }
 
     foo(); // function call to foo()
-
+    // You will get error when you try to compile it. In fact, the modern IDE also informs that
+    // the function foo is not found.
+    // foo() is not declared in the scope of main()
     return 0;
 }
