@@ -1,3 +1,0 @@
-C:/Users/ln69g/Documents/Teaching-UoG/A1-ENG3091/learncpp/CMakeFiles/helloworld.dir
-C:/Users/ln69g/Documents/Teaching-UoG/A1-ENG3091/learncpp/CMakeFiles/ALL_BUILD.dir
-C:/Users/ln69g/Documents/Teaching-UoG/A1-ENG3091/learncpp/CMakeFiles/ZERO_CHECK.dir
