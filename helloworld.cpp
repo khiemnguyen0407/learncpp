@@ -8,5 +8,8 @@ int main()
     for (const std::string& word : msg) {
         std::cout << word << " ";
     }
-    std::cout << std::endl;
+    std::cout << '\n';
+
+    std::cout << "This is a simple C++ program." << std::endl;
+    std::cout << "It demonstrates the use of CMake for building C++ projects." << std::endl;
 }

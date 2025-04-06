@@ -1,9 +1,9 @@
 cmake_minimum_required(VERSION 3.10)
 
-project(first_cpp VERSION 1.0)
+project(helloworld VERSION 1.0)
 
 # include(CTest)
 # enable_testing()
 
-add_executable(first_cpp first_cpp.cpp)
-set_property(TARGET first_cpp PROPERTY CXX_STANDARD 17)
+add_executable(helloworld helloworld.cpp)
+set_property(TARGET helloworld PROPERTY CXX_STANDARD 17)
