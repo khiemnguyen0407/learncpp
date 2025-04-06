@@ -1,0 +1,8 @@
+C:/Users/ln69g/Documents/Teaching-UoG/A1-ENG3091/learncpp/CMakeFiles/Experimental.dir
+C:/Users/ln69g/Documents/Teaching-UoG/A1-ENG3091/learncpp/CMakeFiles/Nightly.dir
+C:/Users/ln69g/Documents/Teaching-UoG/A1-ENG3091/learncpp/CMakeFiles/Continuous.dir
+C:/Users/ln69g/Documents/Teaching-UoG/A1-ENG3091/learncpp/CMakeFiles/NightlyMemoryCheck.dir
+C:/Users/ln69g/Documents/Teaching-UoG/A1-ENG3091/learncpp/CMakeFiles/first_cpp.dir
+C:/Users/ln69g/Documents/Teaching-UoG/A1-ENG3091/learncpp/CMakeFiles/RUN_TESTS.dir
+C:/Users/ln69g/Documents/Teaching-UoG/A1-ENG3091/learncpp/CMakeFiles/ALL_BUILD.dir
+C:/Users/ln69g/Documents/Teaching-UoG/A1-ENG3091/learncpp/CMakeFiles/ZERO_CHECK.dir

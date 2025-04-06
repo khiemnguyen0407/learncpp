@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\ln69g\Documents\Teaching-UoG\A1-ENG3091\learncpp\build\CMakeFiles\d9fd093485c1465a55cbce1bd21862c6\Experimental.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\ln69g\Documents\Teaching-UoG\A1-ENG3091\learncpp\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\ln69g\Documents\Teaching-UoG\A1-ENG3091\learncpp\build\CMakeFiles\Experimental" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{C3AE8084-6BB3-3A9F-AB71-414C3DA25272}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

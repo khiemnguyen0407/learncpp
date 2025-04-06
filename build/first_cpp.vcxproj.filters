@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\ln69g\Documents\Teaching-UoG\A1-ENG3091\learncpp\first_cpp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\ln69g\Documents\Teaching-UoG\A1-ENG3091\learncpp\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{F3F2AFB3-3C76-3F9D-916B-2ECBD602469F}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,3 @@
+C:/Users/ln69g/Documents/Teaching-UoG/A1-ENG3091/learncpp/build/CMakeFiles/first_cpp.dir
+C:/Users/ln69g/Documents/Teaching-UoG/A1-ENG3091/learncpp/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/ln69g/Documents/Teaching-UoG/A1-ENG3091/learncpp/build/CMakeFiles/ZERO_CHECK.dir

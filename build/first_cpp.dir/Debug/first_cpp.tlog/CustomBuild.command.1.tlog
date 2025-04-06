@@ -1,0 +1,10 @@
+^C:\USERS\LN69G\DOCUMENTS\TEACHING-UOG\A1-ENG3091\LEARNCPP\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/ln69g/Documents/Teaching-UoG/A1-ENG3091/learncpp -BC:/Users/ln69g/Documents/Teaching-UoG/A1-ENG3091/learncpp/build --check-stamp-file C:/Users/ln69g/Documents/Teaching-UoG/A1-ENG3091/learncpp/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
