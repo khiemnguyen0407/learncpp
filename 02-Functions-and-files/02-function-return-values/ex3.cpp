@@ -33,8 +33,11 @@ ran successfully or not.
 */
 
 #include <cstdlib> // for EXIT_SUCCESS and EXIT_FAILURE
-
+#include <iostream>
 int main()
 {
+    std::cout << "Write something before returning EXIT_SUCCESS\n";
+    // The program will return 0 (EXIT_SUCCESS) to the operating system
+    // when it reaches the end of main() or when it executes a return statement.
     return EXIT_SUCCESS;
 }
