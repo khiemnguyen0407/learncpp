@@ -14,7 +14,8 @@ Functions that you write yourself are called user-defined functions.
 First, let's start with the most basic syntax to define a user-defined function. For the next few 
 lessons, all user-defined functions will take the following form:
 ==========================================
-return_type function_name() // This is the function header (tells the compiler about the existence of the function)
+// This is the function header (tells the compiler about the existence of the function)
+return_type function_name() 
 {
     // This is the function body (tells the compiler what the function does)
 }
