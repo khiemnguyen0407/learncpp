@@ -40,6 +40,12 @@ int add(int x, int y)
 
     return z;
 } // z, y, and x destroyed here
+
+What happens when an object is destroyed?
+=========================================
+In most cases, nothing. The destroyed object simply becomes invalid. Any use of an object after it 
+has been destroyed will result in undefined behavior. At some point after destruction, the memory 
+used by the object will be deallocated (freed up for reuse).
 */
 
 // a slightly more complex program demonstrating the lifetime of a variable named x
