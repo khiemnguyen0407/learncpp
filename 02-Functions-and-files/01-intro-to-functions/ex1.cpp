@@ -41,7 +41,6 @@ this in the Lession: Forward Declarations and Definitions.
 */
 
 #include <iostream> // for std::cout
-
 // Definition of user-defined function do_print()
 // do_print() is the called function in this example
 void do_print()
