@@ -2,7 +2,8 @@
 #include <bits/stdc++.h>
 #include <vector>
 class Fraction
-{
+{   
+    // Question a --> 2 marks
     private:
         int nominator {};
         int denominator {};
@@ -11,7 +12,14 @@ class Fraction
         // Constructor
         Fraction(int nominator=0, int denominator=1):
             nominator {nominator}, denominator {denominator} 
-        {}
+        {
+            if (this->denominator == 0) {
+                std::cout << "You stupid dumb! Go back to learn fraction! ";
+                std::cout << "I already set demonator to 1 for you.\n";
+                this->denominator = 1;
+            }
+
+        }
 
         int get_nominator() const {return this->nominator; }
         int get_denominator() const {return this->denominator; }
@@ -19,10 +27,10 @@ class Fraction
         Fraction add (const Fraction& f)
         {
             Fraction result;
-            result.nominator = this->nominator + f.nominator;
-            result.denominator = this->denominator + f.denominator;
+            result.nominator = this->denominator * f.nominator + this->nominator * f.denominator;
+            result.denominator = this->denominator * f.denominator;
             return result;
-        }
+        }       // f1.add(f2)
 
         Fraction multiply (const Fraction& f)
         {
@@ -30,7 +38,7 @@ class Fraction
             result.nominator = this->nominator * f.nominator;
             result.denominator = this->denominator * f.denominator;
             return result;
-        }
+        }       // f1.multiply(f2)
 
         friend Fraction operator+(const Fraction& f1, const Fraction& f2);
         friend Fraction operator*(const Fraction& f1, const Fraction& f2);
@@ -54,16 +62,16 @@ class Fraction
         }
 };
 
-std::ostream& operator<<(std::ostream& out, const Fraction& f)
+std::ostream& operator<<(std::ostream& out, const Fraction& f)      // out << f -- resemble a + b with a corresponds to out, + correspond << f corresponds to b.
 {
     int nom { f.get_nominator() };
     int denom { f.get_denominator() };
     if (nom == 0)
-        out << f.get_nominator();
+        out << nom;
     else 
     {
         if (denom == 1)
-            out << f.get_nominator();
+            out << nom;
         else
         {
             if (nom > 0 & denom > 0)
@@ -82,10 +90,10 @@ std::ostream& operator<<(std::ostream& out, const Fraction& f)
 
 Fraction operator+(const Fraction& a, const Fraction& b)
 {
-    int nominator {a.nominator * b.denominator + a.denominator * b.nominator};
-    int denominator {a.denominator * b.denominator};
-    Fraction result {nominator, denominator};
-    // Fraction result {a.nominator * b.denominator + a.denominator * b.nominator, a.denominator * b.denominator};
+    // int nominator {a.nominator * b.denominator + a.denominator * b.nominator};
+    // int denominator {a.denominator * b.denominator};
+    // Fraction result {nominator, denominator};
+    Fraction result {a.nominator * b.denominator + a.denominator * b.nominator, a.denominator * b.denominator};
     return result;
 }
 
@@ -105,8 +113,8 @@ int main()
     
     Fraction a {2, 3};
     Fraction b {3, 4};
-    std::cout << "a + b = " << a + b;
-    std::cout << "a * b = " << a * b;
+    std::cout << "a + b = " << a.add(b);
+    std::cout << "a * b = " << a.multiply(b);
 
     Fraction c1 = a + b;
     Fraction c2 = a * b;
@@ -118,6 +126,7 @@ int main()
     std::cout << "After reduction:  f = " << f.reduce();
 
     std::vector<Fraction> list;
+    
     Fraction prod {1, 1};
     for (int i {1}; i < 6; ++i) {
         Fraction f { 1, i + 1};
