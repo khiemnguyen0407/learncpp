@@ -1,0 +1,7 @@
+{
+	"InstallScripts" : 
+	[
+		"/home/cafesua/github/learncpp/cmake-tutorial/hello/build/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

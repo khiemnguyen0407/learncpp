@@ -1,0 +1,3 @@
+/home/cafesua/github/learncpp/cmake-tutorial/hello/build/CMakeFiles/hello.dir
+/home/cafesua/github/learncpp/cmake-tutorial/hello/build/CMakeFiles/edit_cache.dir
+/home/cafesua/github/learncpp/cmake-tutorial/hello/build/CMakeFiles/rebuild_cache.dir
