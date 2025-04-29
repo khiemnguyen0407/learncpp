@@ -21,11 +21,11 @@ public:
     double get_value() { return this->value; }
 };
 
-std::ostream& operator<<(std::ostream& out, Resource&)
+std::ostream& operator<<(std::ostream& out, Resource& resource)
 {
 	out << "I am a Resource:\n\t";
-    // out << "Name = " << resource.get_name() 
-    //     << " | Value = " << resource.get_value() << '\n';
+    out << "Name = " << resource.get_name() 
+        << " | Value = " << resource.get_value() << '\n';
 	return out;
 }
 
