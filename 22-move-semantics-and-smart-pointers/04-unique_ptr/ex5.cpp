@@ -50,7 +50,9 @@ int main()
     // If you want to use a std::unique_ptr, you need to dynamically allocate the resource:
     std::unique_ptr<Resource> ptr1 = std::make_unique<Resource>("gold", 42.0);
 
-    // This will make error as two pointers would point to the same object.
+    // The following statement will make error as two pointers would point to the 
+    // same object. Uncomment it to see the error. This will be extremely helpful to
+    // understand the concept of unique pointer.
     // std::unique_ptr<Resource> ptr2 { ptr1 };
 
     if (ptr1) // use implicit cast to bool to ensure res contains a Resource
