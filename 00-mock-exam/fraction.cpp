@@ -1,6 +1,8 @@
 #include <iostream>
 #include <bits/stdc++.h>
 #include <vector>
+
+// The mark for each question is given in the code as comments.
 class Fraction
 {   
     // Question a --> 2 marks
