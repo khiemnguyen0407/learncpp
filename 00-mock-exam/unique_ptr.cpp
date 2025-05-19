@@ -1,6 +1,6 @@
 #include <iostream>
 #include <memory>
-void print_inc(const std::unique_ptr<int> &s)
+void print_inc(const std::unique_ptr<int> s)
 {
     std::cout << ++*s << std::endl;
 }
