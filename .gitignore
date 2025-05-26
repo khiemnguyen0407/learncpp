@@ -1,2 +1,5 @@
 # ignore the folder 00-real-exam
 00-real-exam
+
+# ignore all the executable file with extension .out
+*.out
